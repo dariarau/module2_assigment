@@ -1,0 +1,121 @@
+* {
+        box-sizing: border-box;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: "century schoolbook";
+    }
+
+    section {
+        position: relative;
+        padding: 15px;
+        width: 100%;
+    }
+
+    p {
+        position: relative;
+        clear: right;
+    }
+
+    .item {
+        position: relative;
+        background-color: gray;
+        border: 2px solid black;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+    }
+
+    .title1 {
+        float: right;
+        width: 100px;
+        padding: 5px;
+        margin: 0px;
+        border: 2px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: lightpink;
+        font-family: "century schoolbook";
+
+    }
+
+    .title2 {
+        float: right;
+        color: white;
+        width: 100px;
+        padding: 5px;
+        margin: 0px;
+        border: 2px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: maroon;
+        font-family: "century schoolbook";
+
+    }
+
+    .title3 {
+        color: black;
+        float: right;
+        width: 100px;
+        padding: 5px;
+        margin: 0px;
+        border: 2px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: yellow;
+        font-family: "century schoolbook";
+
+    }
+
+    .content {
+        padding: 5px;
+        border: none;
+        background-color: gray;
+        color: black;
+        margin: 0px;
+        height: 150px;
+        overflow: auto;
+        font-family: "century schoolbook";
+    }
+
+    .row {
+        width: 90%;
+    }
+
+        /*desktop*/
+    @media (min-width: 992px) {
+        .column-lg-4 {
+            float: left;
+            width: 33.33%;
+        }
+    }
+
+    /*tablet*/
+    @media (min-width: 768px) and (max-width: 991px) {
+        .colmn-md-6 {
+            float: left;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .colmn-md-12 {
+            float: left;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    /*mobile*/
+    @media (max-width: 767px) {
+        .colmn-sm-12 {
+            float: left;
+            width: 100%;
+        }
+    }
